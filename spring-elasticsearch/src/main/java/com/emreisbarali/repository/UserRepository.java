@@ -15,5 +15,4 @@ public interface UserRepository extends ElasticsearchRepository<User, String> {
 
     List<User> findByNameLikeOrSurnameLike(String name, String surname);
 
-    List<User> findUserByNameLikeOrSurnameLike
 }
